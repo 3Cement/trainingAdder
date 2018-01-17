@@ -10,8 +10,8 @@ browser.get('https://www.endomondo.com/login?returnUrl=~2Fhome')
 #time.sleep(5) # Let the user actually see something!
 
 emailElem = browser.find_element_by_name('email')
-emailElem.send_keys('danielmilewski123@gmail.com')
-passwordElem = browser.find_element_by_name('password')
+emailElem.send_keys('*****@gmail.com')
+passwordElem = browser.find_element_by_name('*****')
 passwordElem.send_keys('mojetreningi123')
 passwordElem.submit()
 
