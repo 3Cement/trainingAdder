@@ -1,6 +1,12 @@
 # trainingAdder - Python
 
-The program that automatically logging into Endomondo website. Then find the latest training on the hard drive and add that to the Endomondo profile
+The script that automatically logging into Endomondo website. Then find the latest training on the hard drive and add that to the Endomondo profile
+This script need your email and password to Endomondo, be sure to change it before you will start using this script.
+This script works only on windows.
+
+# Changes
+
+This script needs a few fixes that will be added in the near future.
 
 ## Getting Started
 
@@ -29,16 +35,17 @@ $ pip install virtualenvwrapper
 $ mkvirtualenv example_venv
 ```
 
-2. Clone this repository:
+2. Clone this repository and install requirements:
 
 ```
 $ (example_venv) git clone https://github.com/3Cement/trainingAdder
+$ (example_venv) pip install selenium
 ```
 
 3. Run program in the shell.
 
 ```
-................
+$ (example_venv) python trainingAdder.py
 ```
 
 ## Screenshots
