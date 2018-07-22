@@ -1,8 +1,15 @@
 # trainingAdder - Python
 
 The script that automatically logging into Endomondo website. Then find the latest training on the hard drive and add that to the Endomondo profile
+
+### Login to Endomondo
+
 This script need your email and password to Endomondo, be sure to change it before you will start using this script.
 This script works only on windows.
+
+### Files location
+
+You should also change the folder in which the training files are searched.
 
 # Changes
 
