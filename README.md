@@ -28,7 +28,7 @@ What things you need to install the software and how to install them
 2. Clone this repository
 3. Install requirements
 4. Initialize database
-5. Run mylibrary app
+5. Run training adder app
 ```
 
 ### Installing and deployment with clone repository:
@@ -49,7 +49,7 @@ $ (example_venv) git clone https://github.com/3Cement/trainingAdder
 $ (example_venv) pip install selenium
 ```
 
-3. Run program in the shell.
+3. Run script in the shell.
 
 ```
 $ (example_venv) python trainingAdder.py
